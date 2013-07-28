@@ -1,0 +1,15 @@
+<h2> New Question </h2>
+
+<%= form_for(@question) do |f| %>
+<%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :query %><br />
+    <%= f.text_field :query %>
+  </p>
+  <%= f.submit %>
+<% end %>

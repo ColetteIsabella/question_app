@@ -1,0 +1,665 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:23:09 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:23:10 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (19.9ms)
+  Rendered questions/new.html.erb within layouts/application (25.2ms)
+Completed 500 Internal Server Error in 54ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:26:16 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:26:16 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 41ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:28:12 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:28:12 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (33.4ms)
+Completed 500 Internal Server Error in 42ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:29:21 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:29:21 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 41ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:30:51 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:30:51 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (36.5ms)
+Completed 500 Internal Server Error in 45ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:46:04 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 42ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:46:04 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 41ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:46:04 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:46:04 -0700
+Processing by QuestionsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:50:47 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:50:48 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 38ms (Views: 8.9ms | ActiveRecord: 1.9ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 10:50:48 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered questions/create.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:50:48 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:50:48 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:52:53 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:52:53 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 40ms (Views: 9.0ms | ActiveRecord: 1.8ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 10:52:53 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered questions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:52:53 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:52:53 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:54:23 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:54:23 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 38ms (Views: 9.1ms | ActiveRecord: 1.8ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:54:24 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:54:24 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 10:54:24 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:55:59 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:55:59 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 41ms (Views: 10.0ms | ActiveRecord: 1.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:56:00 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:56:00 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 10:56:00 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:59:56 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:59:56 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 37ms (Views: 9.0ms | ActiveRecord: 2.5ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 10:59:56 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 10:59:56 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 10:59:56 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:00:06 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:00:07 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 16ms (Views: 8.8ms | ActiveRecord: 1.7ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:00:07 -0700
+Processing by QuestionsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:00:07 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 11:00:07 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.1ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:05:57 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:05:57 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:05:57 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:08:19 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:08:19 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:08:19 -0700
+Processing by QuestionsController#index as HTML
+  Rendered questions/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 18ms
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:08:53 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:08:53 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:08:53 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:08:53 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_questions_show_html_erb___179937834432037397_70186117833160 RAISED /Users/Colette/Dev_Stuff/question_app/question_app/app/views/questions/show.html.erb:1: syntax error, unexpected '(', expecting keyword_end
+...View::OutputBuffer.new; @title(@question.name, "Questions") 
+...                               ^
+/Users/Colette/Dev_Stuff/question_app/question_app/app/views/questions/show.html.erb:1: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...le(@question.name, "Questions") 
+...                               ^
+Function body:           def _app_views_questions_show_html_erb___179937834432037397_70186117833160(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "questions/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; @title(@question.name, "Questions") 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__1016920265043402684__process_action__1981813198481011735__callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:35:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:34:in `catch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:34:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__2016885534342363790__call__443253411433787688__callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:134:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:64:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:49:in `each'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:49:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:33:in `follow'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/node.rb:56:in `click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/element.rb:99:in `block in click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/base.rb:46:in `wait_until'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/element.rb:99:in `click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/actions.rb:27:in `click_link'
+(eval):2:in `click_link'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `click_link'
+/Users/Colette/Dev_Stuff/question_app/question_app/spec/integration/viewing_questions_spec.rb:7:in `block (2 levels) in <top (required)>'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:114:in `instance_eval'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:114:in `block in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:111:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:400:in `block in run_examples'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:396:in `map'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:396:in `run_examples'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:381:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `map'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `block in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/reporter.rb:58:in `report'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:25:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/runner.rb:80:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/runner.rb:17:in `block in autorun'
+  Rendered questions/show.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.0ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:11:39 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:11:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:11:39 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:11:40 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+ERROR: compiling _app_views_questions_show_html_erb__2364714419084940255_70103105103180 RAISED /Users/Colette/Dev_Stuff/question_app/question_app/app/views/questions/show.html.erb:1: syntax error, unexpected '(', expecting keyword_end
+...View::OutputBuffer.new; @title(@question.name, "Questions") 
+...                               ^
+/Users/Colette/Dev_Stuff/question_app/question_app/app/views/questions/show.html.erb:1: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...le(@question.name, "Questions") 
+...                               ^
+Function body:           def _app_views_questions_show_html_erb__2364714419084940255_70103105103180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "questions/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; @title(@question.name, "Questions") 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__67233709011079993__process_action__3397924370863991473__callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:35:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:34:in `catch'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/warden-1.1.1/lib/warden/manager.rb:34:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__1855115075356896844__call__4251957614965006160__callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/builder.rb:134:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:64:in `block in call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:49:in `each'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-1.4.5/lib/rack/urlmap.rb:49:in `call'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/mock_session.rb:30:in `request'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/test.rb:230:in `process_request'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rack-test-0.6.2/lib/rack/test.rb:57:in `get'
+/Users/Colette/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/forwardable.rb:201:in `get'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:62:in `process'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/browser.rb:33:in `follow'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/rack_test/node.rb:56:in `click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/element.rb:99:in `block in click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/base.rb:46:in `wait_until'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/element.rb:99:in `click'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/node/actions.rb:27:in `click_link'
+(eval):2:in `click_link'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/capybara-1.1.2/lib/capybara/dsl.rb:161:in `click_link'
+/Users/Colette/Dev_Stuff/question_app/question_app/spec/integration/viewing_questions_spec.rb:7:in `block (2 levels) in <top (required)>'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:114:in `instance_eval'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:114:in `block in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:254:in `with_around_each_hooks'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example.rb:111:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:400:in `block in run_examples'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:396:in `map'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:396:in `run_examples'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/example_group.rb:381:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `map'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:28:in `block in run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/reporter.rb:58:in `report'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/command_line.rb:25:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/runner.rb:80:in `run'
+/Users/Colette/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-2.14.4/lib/rspec/core/runner.rb:17:in `block in autorun'
+  Rendered questions/show.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 8ms
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:13:00 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:13:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:13:00 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:13:01 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 9ms
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:13:26 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:13:26 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:13:26 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:13:26 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" 
+  Rendered questions/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 1.7ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered questions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#new as HTML
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:13:36 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:13:36 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:13:36 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem "dynamic_form", "1.1.4"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -19,8 +20,19 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+gem "devise", "2.1.0"
 
 gem 'jquery-rails'
+
+group :test, :development do
+  gem "rspec-rails", "~>2.11"
+  gem "launchy"
+end
+
+group :test do
+  gem "capybara", "1.1.2"
+  gem "factory_girl", "2.6.4"
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
