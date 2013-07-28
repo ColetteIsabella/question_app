@@ -1,4 +1,7 @@
 <div id='answer'>
   <h2><%= @answer.title %></h2>
+  <%= link_to "Edit Answer", [:edit, @question, @answer] %>
   <%= simple_format(@answer.response) %>
 </div>
+
+
