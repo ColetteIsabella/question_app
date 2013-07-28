@@ -37,4 +37,11 @@ class QuestionsController < ApplicationController
       render action: "edit"
     end
   end
+
+  def destroy
+    @question = Question.find(params[:id])
+    @question.destroy
+    flash[:notice] = "Question has been deleted."
+    redirect_to questions_path
+  end
 end

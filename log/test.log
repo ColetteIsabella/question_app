@@ -1354,3 +1354,174 @@ Processing by QuestionsController#show as HTML
   [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
 Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
   [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.0ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:57:34 UTC +00:00], ["query", nil], ["title", "Good Question"], ["updated_at", Sun, 28 Jul 2013 18:57:34 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:57:34 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:57:34 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+Started DELETE "/questions/1" for 127.0.0.1 at 2013-07-28 11:57:34 -0700
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (31.0ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00], ["query", nil], ["title", "Good Question"], ["updated_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.2ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+Started DELETE "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "questions" WHERE "questions"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/questions
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+Started GET "/questions" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" 
+  Rendered questions/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (6.8ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"Good Question", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00], ["query", ""], ["title", "Good Question"], ["updated_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/questions/1
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.1ms)
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."title" = 'Good Question' LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (1.7ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 11:59:29 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Create Question"}
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered questions/_form.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00], ["query", nil], ["title", "Good Questions"], ["updated_at", Sun, 28 Jul 2013 18:59:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sun, 28 Jul 2013 18:59:30 UTC +00:00], ["query", nil], ["title", "Good Question"], ["updated_at", Sun, 28 Jul 2013 18:59:30 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#index as HTML
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" 
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1/edit" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/_form.html.erb (2.4ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms)
+Started PUT "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"Better Question", "query"=>""}, "commit"=>"Update Question", "id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "questions" SET "title" = 'Better Question', "query" = '', "updated_at" = '2013-07-28 18:59:30.038404' WHERE "questions"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/questions/1
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 18:59:30 UTC +00:00], ["query", nil], ["title", "Good Question"], ["updated_at", Sun, 28 Jul 2013 18:59:30 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Started GET "/" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.1ms)
+Started GET "/questions/1/edit" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered questions/_form.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.1ms)
+Started PUT "/questions/1" for 127.0.0.1 at 2013-07-28 11:59:30 -0700
+Processing by QuestionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "question"=>{"title"=>"", "query"=>""}, "commit"=>"Update Question", "id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered questions/_form.html.erb (2.2ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
