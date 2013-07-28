@@ -8,11 +8,11 @@ feature "Creating Questions" do
 
   scenario "can create a question" do
     fill_in "Title", :with => "Good Question"
-    fill_in "Query", :with => "Here it is"
+    click_button "Create Question"
     page.should have_content("Question has been created.")
 
     question = Question.find_by_title("Good Question")
-    page.current_url.should == project_url(question)
+    page.current_url.should == question_url(question)
     title = "Good Question - Questions - question_app"
     find("title").should have_content(title)
   end
