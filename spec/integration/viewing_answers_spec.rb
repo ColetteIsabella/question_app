@@ -21,7 +21,7 @@ better_question = Factory(:question, :title => "Better Question")
     page.should_not have_content("Make it good.")
     click_link "Seriously!"
     within("#answer h2") do
-      page.should have_content("Seriously!")
+    page.should have_content("Seriously!")
     end
     page.should have_content("Too much.")
   end
