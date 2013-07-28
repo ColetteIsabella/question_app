@@ -1,6 +1,7 @@
 class Answer < ActiveRecord::Base
   belongs_to :question
-  attr_accessible :response, :title
+  belongs_to :user
+  attr_accessible :question, :response, :title
 
   validates :title, presence: true
   validates :response, presence: true
