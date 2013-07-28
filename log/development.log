@@ -162,3 +162,197 @@ Connecting to database specified by database.yml
   [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
   [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130728164245')[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-28 12:00:32 -0700
+Processing by QuestionsController#index as HTML
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" [0m
+  Rendered questions/index.html.erb within layouts/application (2.3ms)
+Compiled questions.css  (28ms)  (pid 78867)
+Compiled application.css  (32ms)  (pid 78867)
+Compiled jquery.js  (4ms)  (pid 78867)
+Compiled jquery_ujs.js  (0ms)  (pid 78867)
+Compiled questions.js  (152ms)  (pid 78867)
+Compiled application.js  (185ms)  (pid 78867)
+Completed 200 OK in 288ms (Views: 269.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /questions.css - 200 OK (2ms)
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /questions.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/questions/new" for 127.0.0.1 at 2013-07-28 12:00:35 -0700
+Processing by QuestionsController#new as HTML
+  Rendered questions/_form.html.erb (15.0ms)
+  Rendered questions/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 35ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/questions" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Processing by QuestionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Up7UOIb6kRoj+Au9b/pNr2bZo3oDU/QpaazxhV68vw=", "question"=>{"title"=>"New Question", "query"=>"How do I Mine For Fish?"}, "commit"=>"Create Question"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "questions" ("created_at", "query", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 28 Jul 2013 19:00:52 UTC +00:00], ["query", "How do I Mine For Fish?"], ["title", "New Question"], ["updated_at", Sun, 28 Jul 2013 19:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/questions/1
+Completed 302 Found in 11ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.2ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:52 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/questions/1/edit" for 127.0.0.1 at 2013-07-28 12:00:54 -0700
+Processing by QuestionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/_form.html.erb (2.5ms)
+  Rendered questions/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:54 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:54 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:54 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/questions/1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Processing by QuestionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Up7UOIb6kRoj+Au9b/pNr2bZo3oDU/QpaazxhV68vw=", "question"=>{"title"=>"New Question", "query"=>"How do I Mine For Fish?"}, "commit"=>"Update Question", "id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/questions/1
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mQuestion Load (0.1ms)[0m  SELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:00:57 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/questions/1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Processing by QuestionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuestion Load (0.1ms)[0m  [1mSELECT "questions".* FROM "questions" WHERE "questions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered questions/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2013-07-28 12:04:13 -0700
+Served asset /questions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "questions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "query" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130728164245')[0m
