@@ -2,9 +2,15 @@ require 'spec_helper'
 
 feature "Editing answers" do
   let!(:question) { Factory(:question) }
-  let!(:answer) { Factory(:answer, :question => question) }
+  let!(:user) { Factory(:confirmed_user)}
+  let!(:answer) do
+    answer = Factory(:answer, :question => question)
+    answer.update_attribute(:user, user)
+    answer
+  end
 
   before do
+    sign_in_as!(user)
     visit '/'
     click_link question.title
     click_link answer.title

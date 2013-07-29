@@ -6,5 +6,6 @@ class CreateQuestions < ActiveRecord::Migration
 
       t.timestamps
     end
+
   end
 end
