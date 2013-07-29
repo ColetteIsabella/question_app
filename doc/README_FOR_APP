@@ -1,2 +1,9 @@
 Use this README file to introduce your application and point to useful places in the API for learning more.
 Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+I used Devise, and email_spec to create the log in and email verification.
+I tested throughout with Rspec, launchy and Capybara.
+
+This runs on Ruby1.9.3 and Rails3.
+
+I do not know how to post a screen shot here.
+They are, however in this Repo.
